@@ -1,9 +1,10 @@
 package BattistaAntonellaRecuperatorio;
 
-public class Heroe extends Personaje{
+public class Heroe extends Personaje {
 
-	public Heroe(String nombre, Integer poderInicial, String tipo) {
-		super(nombre, poderInicial, tipo);
-	
+	public Heroe(String nombre, Integer poderInicial) {
+		super(nombre, poderInicial, "Heroe");
+		// TODO Auto-generated constructor stub
 	}
+
 }

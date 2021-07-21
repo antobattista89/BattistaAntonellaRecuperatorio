@@ -3,9 +3,11 @@ package BattistaAntonellaRecuperatorio;
 public class Gema {
 	
 	private String nombre;
+	private Integer poderAIncrementar;
 	
-	public Gema(String nombre) {
+	public Gema(String nombre, Integer poderAIncrementar) {
 		this.nombre = nombre;
+		this.poderAIncrementar = poderAIncrementar;
 	}
 
 	public String getNombre() {
@@ -15,4 +17,13 @@ public class Gema {
 	public void setNombre(String nombre) {
 		this.nombre = nombre;
 	}
+
+	public Integer getPoderAIncrementar() {
+		return poderAIncrementar;
+	}
+
+	public void setPoderAIncrementar(Integer poderAIncrementar) {
+		this.poderAIncrementar = poderAIncrementar;
+	}
+	
 }
